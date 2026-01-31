@@ -17,4 +17,12 @@ func main(){
 
 	avgViews := totalViews/2
 	fmt.Println(avgViews)
+	fmt.Println(totalViews, likes)
+
+
+	rating1 := 4.5
+	rating2 := 5.1
+	avgRating := (rating1+rating2)/2
+	fmt.Println(avgRating)
+
 }
